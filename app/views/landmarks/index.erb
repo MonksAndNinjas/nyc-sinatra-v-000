@@ -4,7 +4,7 @@
   <% Landmark.all.each do |landmark| %>
     <li><%= landmark.name %></li>
     <ul>
-      <li><%= landmark.year_completed %></li>
+      <li>Year Completed: <%= landmark.year_completed %></li>
     </ul>
   <% end %>
 </ul>
