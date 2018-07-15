@@ -11,7 +11,7 @@ class FiguresController < ApplicationController
   get '/figures/:id' do
     @figure = Figure.find_by_id(params[:id])
 
-    erb :'/figures/show'
+    erb :"/figures/#{@figure.id}"
   end
 
   post '/figures' do
