@@ -7,3 +7,10 @@
     <li><%= title.name %></li>
   <% end %>
 </ul>
+
+<ul>
+  <% @figure.landmarks.each do |landmark| %>
+    <li><%= landmark.name %></li>
+    <li><%= landmark.year_completed %></li>
+  <% end %>
+</ul>
