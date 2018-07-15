@@ -30,4 +30,5 @@ class LandmarksController < ApplicationController
   patch '/landmarks/:id' do
 
   end
+  
 end
