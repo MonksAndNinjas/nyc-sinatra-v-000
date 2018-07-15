@@ -31,6 +31,6 @@ class FiguresController < ApplicationController
   end
 
   get '/figures/:id/edit' do
-    erb :edit
+    erb :'/figures/edit'
   end
 end
